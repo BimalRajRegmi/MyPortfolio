@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>Bimal Raj Regmi | Game Developer Portfolio</title>
+  <meta name="description"
+    content="Bimal Raj Regmi portfolio: Unity C# game development projects, about, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="antialiased">
+  <div class="galaxy-stars" aria-hidden="true"></div>
+  <div id="scrollProgress"
+    class="fixed left-0 top-0 z-[120] h-1 w-0 bg-gradient-to-r from-cyan-300 via-blue-500 to-indigo-500 shadow-[0_0_18px_rgba(77,163,255,0.9)] transition-[width] duration-150 ease-out">
+  </div>
+  <div id="cursorDot" class="cursor-dot" aria-hidden="true"></div>
+  <div id="cursorRing" class="cursor-ring" aria-hidden="true"></div>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img class="brand-mark" src="Images/Blue Pop Art Portrait.png" alt="Bimal Raj Regmi avatar" />
+        <div class="brand-text">
+          <div class="brand-name">Bimal Raj Regmi</div>
+          <div class="brand-role">Game Developer (Unity C#)</div>
+        </div>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="crazy-font">
+            Hi, I&#39;m <span class="accent">Bimal Raj Regmi</span>.<br />
+            I build games with Unity and C#.
+          </h1>
+          <p class="lead">
+            I&#39;m a game development student from Kathmandu, Nepal, currently
+            studying at Mid Valley International College and focused on creating
+            polished gameplay experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="Assets/Bimal_Raj_Regmi_CV.pdf" download>
+              Resume
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-media" aria-label="Portfolio hero image">
+          <div class="hero-media-inner">
+            <img class="hero-avatar" src="Images/Blue Pop Art Portrait.png" alt="Avatar of Bimal Raj Regmi" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="cards-grid" id="featuredProjects" data-itch-projects data-limit="2">
+          <p class="muted">Loading projects from Itch.io...</p>
+        </div>
+        <div class="projects-view-all">
+          <a class="btn btn-primary" href="./projects.html">View all projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>About me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>What I do</h3>
+            <p>
+              I use Unity and C# to design and develop gameplay systems,
+              prototype ideas quickly, and iterate on player feedback to improve
+              the final experience.
+            </p>
+            <p class="muted">
+              I currently study at Mid Valley International College in
+              Kathmandu, Nepal.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h3>Using</h3>
+            <div class="skill-grid">
+
+              <div class="skill-item skill-unity">
+                <a href="https://www.google.com/search?q=what+is+Unity" target="_blank" rel="noopener noreferrer">
+                  <div class="skill-logo-wrap">
+                    <img class="skill-logo"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
+                      alt="Unity logo" />
+                  </div>
+                  <span>Unity</span>
+                </a>
+              </div>
+
+              <div class="skill-item skill-csharp">
+                <a href="https://www.google.com/search?q=what+is+C+sharp+programming" target="_blank"
+                  rel="noopener noreferrer">
+                  <div class="skill-logo-wrap">
+                    <img class="skill-logo"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                      alt="C# logo" />
+                  </div>
+                  <span> C#</span>
+                </a>
+              </div>
+
+              <div class="skill-item skill-photoshop">
+                <a href="https://www.google.com/search?q=what+is+Adobe+Photoshop" target="_blank"
+                  rel="noopener noreferrer">
+                  <div class="skill-logo-wrap">
+                    <img class="skill-logo"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                      alt="Photoshop logo" />
+                  </div>
+                  <span>Photoshop</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="about-card">
+            <h3>Socials</h3>
+            <p class="muted">
+              Connect with me on social platforms and game-dev communities.
+            </p>
+            <div class="social-links">
+
+              <a class="social-link-item" href="https://github.com/BimalRajRegmi" target="_blank" rel="noopener">
+                <img class="social-logo" src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub logo" />
+                <span>GitHub</span>
+              </a>
+              <a class="social-link-item" href="https://bimal-raj-regmi.itch.io/" target="_blank" rel="noopener">
+                <img class="social-logo" src="https://cdn.simpleicons.org/itchdotio/ffffff" alt="Itch.io logo" />
+                <span>Itch.io</span>
+              </a>
+              <a class="social-link-item" href="https://linkedin.com/in/bimal-raj-regmi" target="_blank" rel="noopener">
+                <img class="social-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                  alt="LinkedIn logo" />
+                <span>LinkedIn</span>
+              </a>
+              <a class="social-link-item" href="https://discord.gg/kEZtRrEU53" target="_blank" rel="noopener">
+                <img class="social-logo" src="https://cdn.simpleicons.org/discord/ffffff" alt="Discord logo" />
+                <span>Discord</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

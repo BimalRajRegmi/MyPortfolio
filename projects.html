@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>All Projects | Bimal Raj Regmi</title>
+  <meta name="description" content="All game development projects by Bimal Raj Regmi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="antialiased">
+  <div class="galaxy-stars" aria-hidden="true"></div>
+  <div id="scrollProgress"
+    class="fixed left-0 top-0 z-[120] h-1 w-0 bg-gradient-to-r from-cyan-300 via-blue-500 to-indigo-500 shadow-[0_0_18px_rgba(77,163,255,0.9)] transition-[width] duration-150 ease-out">
+  </div>
+  <div id="cursorDot" class="cursor-dot" aria-hidden="true"></div>
+  <div id="cursorRing" class="cursor-ring" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img class="brand-mark" src="Images/Blue Pop Art Portrait.png" alt="Bimal Raj Regmi avatar" />
+        <div class="brand-text">
+          <div class="brand-name">Bimal Raj Regmi</div>
+          <div class="brand-role">Game Developer (Unity C#)</div>
+        </div>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link" href="./index.html#home">Home</a>
+        <a class="nav-link" href="./projects.html">Projects</a>
+        <a class="nav-link" href="./index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero">
+      <div class="container">
+        <div class="section-head">
+          <h1>All Projects</h1>
+         
+        </div>
+
+        <div class="cards-grid" data-itch-projects>
+          <p class="muted">Loading projects from Itch.io...</p>
+        </div>
+
+        <div class="projects-view-all">
+          <a class="btn btn-ghost" href="index.html">Back to Home</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./main.js"></script>
+</body>
+
+</html>
