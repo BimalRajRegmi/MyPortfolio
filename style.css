@@ -29,7 +29,7 @@ body {
   margin: 0;
   width: 100%;
   max-width: 100%;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   background: #020712;
   color: var(--text);
   cursor: none;
@@ -338,7 +338,7 @@ body::after {
 }
 
 .brand-name {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   font-weight: 760;
   letter-spacing: .24px;
   color: rgba(238, 247, 255, .96);
@@ -346,7 +346,7 @@ body::after {
 }
 
 .brand-role {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   font-size: 12.5px;
   color: rgba(200, 229, 255, .82);
   letter-spacing: .06em;
@@ -364,7 +364,7 @@ body::after {
 }
 
 .nav-link {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   position: relative;
   text-decoration: none;
   color: rgba(220, 238, 255, .8);
@@ -401,7 +401,7 @@ body::after {
 }
 
 .nav-cta {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   text-decoration: none;
   font-size: 13.5px;
   letter-spacing: .08em;
@@ -427,7 +427,7 @@ body::after {
   height: 44px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, .14);
-  background: rgba(255, 255, 255, .04);
+  background: rgba(201, 140, 140, 0.04);
   align-items: center;
   justify-content: center;
 }
